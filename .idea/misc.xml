@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Coding/Matrix/pom.xml" />
+        <option value="$PROJECT_DIR$/Coding/matrizen/pom.xml" />
+        <option value="$PROJECT_DIR$/Coding/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/Coding/untitled1/pom.xml" />
+        <option value="$PROJECT_DIR$/Coding/Matrix_2.0/pom.xml" />
+        <option value="$PROJECT_DIR$/Coding/Pegelstand/pom.xml" />
+        <option value="$PROJECT_DIR$/Coding/Songmanager/pom.xml" />
+        <option value="$PROJECT_DIR$/Coding/Songmaneger/pom.xml" />
+        <option value="$PROJECT_DIR$/Coding/radrundfahrt/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="ms-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
