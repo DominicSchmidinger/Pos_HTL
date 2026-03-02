@@ -2,7 +2,7 @@ package at.spengergasse;
 
 import java.time.Year;
 
-public class Angestellter extends Mitarbeiter{
+public class Angestellter extends at.spengergasse.Mitarbeiter {
     public Angestellter(String name, Year gebJahr, Year eintrJahr) {
         super(name, gebJahr, eintrJahr);
     }
