@@ -2,7 +2,7 @@ package at.spengergasse;
 
 import java.time.Year;
 
-public class Freelancer extends Mitarbeiter{
+public class Freelancer extends at.spengergasse.Mitarbeiter {
     private double stundenSatz;
     private int stunden;
 

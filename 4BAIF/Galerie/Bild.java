@@ -4,6 +4,10 @@ public class Bild extends kunstwerke {
    private boolean sehrGefragt;
     public Bild(String kuenstler, String titel, int laenge, int breite, double ekPreis, boolean verkauft, boolean sehrGefragt) {
         super(kuenstler, titel, laenge, breite, ekPreis, verkauft);
+        setsehrGefragt(sehrGefragt);
+    }
+
+    public void setsehrGefragt(boolean sehrGefragt) {
         this.sehrGefragt = sehrGefragt;
     }
 
@@ -11,15 +15,11 @@ public class Bild extends kunstwerke {
         return sehrGefragt;
     }
 
-    public void setSehrGefragt(boolean sehrGefragt) {
-        this.sehrGefragt = sehrGefragt;
-    }
-
     @Override
     public double berechneVKWert() {
         double wert = getEkPreis();
 
-        if (this.isSehrGefragt()) {
+        if (sehrGefragt == true) {
             wert *= 1.5;
         }
         else  {

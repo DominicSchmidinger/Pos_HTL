@@ -69,4 +69,6 @@ public abstract class kunstwerke {
     public String toString() {
         return  kuenstler + "-" + titel + "-" + ekPreis + "-" + verkauft;
     }
+
+    public abstract double berechneVkwert();
 }
