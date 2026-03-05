@@ -33,7 +33,7 @@ public class Etappe {
 
     public void setLaenge(float laenge) {
         if (laenge <= 0) {
-            throw new IllegalArgumentException("Laenge muss positiv sein");
+            throw new IllegalAccessError("Laenge muss positiv sein");
         }
         this.laenge = laenge;
     }

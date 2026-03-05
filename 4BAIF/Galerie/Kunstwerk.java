@@ -1,6 +1,6 @@
 package Galerie;
 
-public abstract class kunstwerke {
+public abstract class Kunstwerk {
     private final String kuenstler;
     private String titel;
     private int laenge;
@@ -8,7 +8,7 @@ public abstract class kunstwerke {
     private double ekPreis;
     private boolean verkauft;
 
-    public kunstwerke(String kuenstler, String titel, int laenge, int breite, double ekPreis, boolean verkauft) {
+    public Kunstwerk(String kuenstler, String titel, int laenge, int breite, double ekPreis, boolean verkauft) {
         this.kuenstler = kuenstler;
         this.titel = titel;
         this.laenge = laenge;
@@ -16,8 +16,6 @@ public abstract class kunstwerke {
         this.ekPreis = ekPreis;
         this.verkauft = false;
     }
-
-
 
     public String getKuenstler() {
         return kuenstler;
@@ -70,5 +68,4 @@ public abstract class kunstwerke {
         return  kuenstler + "-" + titel + "-" + ekPreis + "-" + verkauft;
     }
 
-    public abstract double berechneVkwert();
 }

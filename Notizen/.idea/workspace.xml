@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca0e1d96-a7a0-4ae8-a5d5-80d3dd01b4fd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../4BAIF/Galerie/Galerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4BAIF/Galerie/Galerie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4BAIF/Galerie/kunstwerke.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4BAIF/Galerie/Kunstwerk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4BAIF/Galerie/skulpturen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4BAIF/Galerie/skulpturen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coding/Matrix/target/classes/at/spengergasse/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coding/radrundfahrt/src/main/java/at/spengergasse/Etappe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coding/radrundfahrt/src/main/java/at/spengergasse/Etappe.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DominicSchmidinger"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DominicSchmidinger/Pos_HTL.git",
+    "accountId": "9e2b9db0-5301-4918-acd7-25a0ea1c2b8c"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3AWbY4vnwbOgsdxCZc1Pmp4yeJF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Dominic/Spengergasse/Gits Repos/Pos_HTL/Notizen"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca0e1d96-a7a0-4ae8-a5d5-80d3dd01b4fd" name="Changes" comment="" />
+      <created>1772711317465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772711317465</updated>
+    </task>
+    <servers />
+  </component>
+</project>
