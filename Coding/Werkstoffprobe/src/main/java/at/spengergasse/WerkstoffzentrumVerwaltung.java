@@ -31,7 +31,7 @@ public boolean removeProbe(MetallProbe probe){
 public boolean removeAllProbe(){
         Iterator<MetallProbe> iterator = metallerProbe.iterator();
         while (iterator.hasNext()){
-            
+
         }
 }
 }
