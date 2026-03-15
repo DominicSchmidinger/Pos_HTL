@@ -6,7 +6,7 @@ public class MetallProbe extends Werkstoffprobe {
     private double zugfestigkeit;
     private double korrisonsWert;
 
-    public MetallProbe(String id, double dichte, String bezeichnung, double masse) {
+    public MetallProbe(String id, double dichte, String bezeichnung, double masse, double zugfestigkeit, double korrisonsWert) {
         super(id, dichte, bezeichnung, masse);
         setZugfestigkeit(zugfestigkeit);
         setKorrisonsWert(korrisonsWert);
@@ -17,7 +17,7 @@ public class MetallProbe extends Werkstoffprobe {
     }
 
     public void setZugfestigkeit(double zugfestigkeit) {
-        if (zugfestigkeit > 0){
+        if (zugfestigkeit < 0){
             throw new IllegalArgumentException("zugfestigkeit kann nicht negativ sein");
         }
         this.zugfestigkeit = zugfestigkeit;
@@ -28,30 +28,26 @@ public class MetallProbe extends Werkstoffprobe {
     }
 
     public void setKorrisonsWert(double korrisonsWert) {
-        if (korrisonsWert > 0 || korrisonsWert <  100){
+        if (korrisonsWert < 0 || korrisonsWert >  100){
             throw new IllegalArgumentException("korrisonswert muss zwischen 0-100 sein (laut prof halt ka was das is)");
         }
         this.korrisonsWert = korrisonsWert;
     }
 
+    @Override
     public double berechneQualitaetsIndex(){
         double qualitaetsindex = 0;
         qualitaetsindex = zugfestigkeit/ (korrisonsWert +1);
         return qualitaetsindex;
     }
 
-    public double berechneVolumen(){
-        double volumen = 0;
-        volumen = getDichte()/getDichte();
-        return volumen;
-    }
-
-
     @Override
     public String toString() {
-        return super.toString() +"MetallProbe{" +
-                "zugfestigkeit=" + zugfestigkeit +
-                ", korrisonsWert=" + korrisonsWert +
-                "} ";
+        final StringBuilder sb = new StringBuilder("MetallProbe: [");
+        sb.append(super.toString());
+        sb.append(", korrisonsWert=").append(korrisonsWert);
+        sb.append(", zugfestigkeit=").append(zugfestigkeit);
+        sb.append(']');
+        return sb.toString();
     }
 }

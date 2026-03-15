@@ -57,17 +57,24 @@ public abstract class Werkstoffprobe {
         this.masse = masse;
     }
 
-    public abstract double berechneVolumen();
+    public double berechneVolumen(){
+        double volumen = 0;
+        volumen = getMasse()/getDichte();
+        return volumen;
+    }
+
+    public abstract double berechneQualitaetsIndex();
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Werkstoffprobe{");
+        final StringBuilder sb = new StringBuilder("Werkstoffprobe: ");
         sb.append("id='").append(id).append('\'');
         sb.append(", bezeichnung='").append(bezeichnung).append('\'');
-        sb.append(", dichte=").append(dichte);
-        sb.append(", masse=").append(masse);
-        sb.append('}');
+        sb.append(", dichte=").append(dichte).append('\'');
+        sb.append(", masse=").append(masse).append('\'');
+        sb.append(", QualitaetsIndex").append(berechneQualitaetsIndex());
         return sb.toString();
     }
 }
+
 
