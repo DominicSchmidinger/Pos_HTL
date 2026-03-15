@@ -1,3 +1,5 @@
+package at.spengergasse;
+
 import at.spengergasse.Werkstoffprobe;
 
 public class MetallProbe extends Werkstoffprobe {
