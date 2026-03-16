@@ -108,7 +108,7 @@ public class WerkstoffzentrumVerwaltung {
     public double gesQuliteatPolymer() {
         double summe = 0;
         for (Werkstoffprobe wp : Werkstoffprobe) {
-            if (wp instanceof KeramikProbe)
+            if (wp instanceof PolymerProbe)
                 summe += wp.berechneQualitaetsIndex();
         }
         return summe;
