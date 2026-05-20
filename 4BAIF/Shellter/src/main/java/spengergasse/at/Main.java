@@ -11,9 +11,8 @@ public class Main {
             System.out.println(bird1);
 
 
-        } catch (IllegalArgumentException e){
+        } catch (Throwable e){
             System.err.println("Fehler bei der Validierung" + e.getMessage());
         }
     }
-
 }

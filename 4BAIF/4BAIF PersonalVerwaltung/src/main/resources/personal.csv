@@ -1,0 +1,30 @@
+Angestellter;Anna Berger;1984;2010
+Freelancer;Lukas Huber;1992;2021;95.50;28
+Arzt;Maria Gruber;1978;2008;38;6200.00
+Angestellter;;1988;2014
+Freelancer;Paul Test;1995;2020;-85.00;20
+Arzt;Claudia Fehler;1974;2006;0;6550.00
+Angestellter;Zu Jung;2014;2024
+Freelancer;Falsches Jahr;1999;1998;80.00;12
+Arzt;Zukunft Mensch;2027;2028;35;7000.00
+Unbekannt;Nora Klein;1985;2012
+Angestellter;Michael Dorn;1994;2020
+Freelancer;Helena Graf;1984;2014;105.60;29
+Arzt;Georg Winter;1975;2007;40;7200.00
+Freelancer;Zu Wenig Spalten;1990;2018;99.90
+Arzt;Zu Wenig Spalten;1982;2010;40
+Angestellter;Zu Viele Spalten;1980;2010;EXTRA
+Freelancer;Text Statt Zahl;1987;2019;abc;25
+Arzt;Text Statt Zahl;1979;2011;vierzig;6800.00
+Freelancer;Negative Stunden;1991;2017;84.90;-4
+Arzt;Negatives Fixum;1983;2013;39;-7050.00
+Angestellter;Leerzeichen Name;   ;2015
+Freelancer;Leonie Bauer;1996;2022;79.50;21
+Arzt;Harald Winkler;1977;2004;41;7350.00
+Angestellter;NullName;2000;2000
+Freelancer;KommaStattPunkt;1989;2016;98,30;27
+Arzt;Eintritt Vor Geburt;1990;1980;40;5000.00
+Angestellter;Sabine Kraus;1971;1998
+Freelancer;Sehr Alt;1940;1960;70.00;10
+Arzt;Gueltig Zum Schluss;1986;2016;36;6900.00
+Angestellter;NurDreiSpalten;1993
