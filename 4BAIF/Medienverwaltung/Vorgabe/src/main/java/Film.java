@@ -29,7 +29,7 @@ public class Film extends Medium {
     @Override
     public String toCsvString() {
         // TODO: Film als CSV-Zeile erzeugen
-        return "";
+        return String.format("Film:%s,%s,%S", this.dauerMinuten, this.getTitel(), this.getErscheinungsjahr());
     }
 
     @Override

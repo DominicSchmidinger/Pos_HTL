@@ -1,32 +1,31 @@
-package at.spengergasse;
-
 import java.time.Year;
 
-public class Freelancer extends at.spengergasse.Mitarbeiter {
+public class Freelancer extends Mitarbeiter{
     private double stundenSatz;
     private int stunden;
 
-    public Freelancer(String name, Year gebJahr, Year eintrJahr, double stundenSatz, int stunden) {
+    public Freelancer() throws PersonalException {
+        super("Anna", Year.of(2001), Year.now());
+        setStundenSatz(100.0);
+        setStunden(10);
+    }
+
+    public Freelancer(String name, Year gebJahr, Year eintrJahr, double stundenSatz, int stunden) throws PersonalException {
         super(name, gebJahr, eintrJahr);
         setStundenSatz(stundenSatz);
         setStunden(stunden);
-    }
-
-    public Freelancer() {
-        super("Anna", Year.of(2001), Year.now());
-        setStunden(10);
-        setStundenSatz(100.0);
     }
 
     public double getStundenSatz() {
         return stundenSatz;
     }
 
-    public void setStundenSatz(double stundenSatz) {
-        if (stundenSatz >= 0.0) {
+    public void setStundenSatz(double stundenSatz) throws PersonalException {
+        if (stundenSatz > 0.0) {
             this.stundenSatz = stundenSatz;
         } else {
-            System.out.println("Fehler: Wert von stundenSatz darf nicht negativ sein");
+            //System.out.println("Fehler: stundensatz muss positiv sein");
+            throw new PersonalException("Fehler: stundensatz muss positiv sein");
         }
     }
 
@@ -34,14 +33,14 @@ public class Freelancer extends at.spengergasse.Mitarbeiter {
         return stunden;
     }
 
-    public void setStunden(int stunden) {
-        if (stunden >= 0) {
+    public void setStunden(int stunden) throws PersonalException {
+        if (stunden > 0) {
             this.stunden = stunden;
         } else {
-            System.out.println("Fehler: Wert von stunden darf nicht negativ sein");
+            //System.out.println("Fehler: stunden müssen positiv sein");
+            throw new PersonalException("Fehler: stunden müssen positiv sein");
         }
     }
-
     @Override
     public double berechneGehalt() {
         return stunden * stundenSatz;
@@ -66,11 +65,15 @@ public class Freelancer extends at.spengergasse.Mitarbeiter {
 
     @Override
     public String toString() {
-        return "Freelancer: " +
-                super.toString() + // für alle gemeinsamen Informationen aus der Superklasse Mitarbeiter
-                ", Stundensatz: " + stundenSatz +
-                ", Stunden: " + stunden;
+        return "Freelancer: " + super.toString() +
+                ", Stunden: " + stunden + ", Stundensatz: " + stundenSatz;
     }
+
+
+
+
+
+
 
 
 

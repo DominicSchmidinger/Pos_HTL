@@ -30,7 +30,7 @@ public class Buch extends Medium {
     @Override
     public String toCsvString() {
         // TODO: Buch als CSV-Zeile erzeugen
-        return String.format("Buch;%p;%s", this.getTitel(), this.getErscheinungsjahr(), this.getBewertungen());
+        return String.format("Buch;%s;%s,%s", this.getTitel(), this.getErscheinungsjahr(), this.getBewertungen());
     }
 
     @Override

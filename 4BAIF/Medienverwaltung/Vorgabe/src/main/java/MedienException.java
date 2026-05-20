@@ -1,6 +1,6 @@
 public class MedienException extends RuntimeException {
 
-    public MedienException (String Massage)
+    public MedienException (String massage){
         super(massage);
-    )
+    }
 }

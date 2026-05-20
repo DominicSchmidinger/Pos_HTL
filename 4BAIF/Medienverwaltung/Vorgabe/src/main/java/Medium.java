@@ -52,7 +52,8 @@ public abstract class Medium {
 
     public String toCsvString() {
         // TODO: gemeinsame CSV-Felder erzeugen
-        return "";
+
+        return String.format("Medium;%s,%s,%s", this.titel, this.erscheinungsjahr, this.bewertungen);
     }
 
     @Override

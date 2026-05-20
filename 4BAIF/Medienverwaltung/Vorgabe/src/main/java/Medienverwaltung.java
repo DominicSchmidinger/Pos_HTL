@@ -87,16 +87,17 @@ public class Medienverwaltung {
     public List<Medium> filtere(MedienFilter filter) {
         List<Medium> ergebnis = new LinkedList<>();
         // TODO: mit MedienFilter filtern
+        if (MedienFilter == true)
         return ergebnis;
     }
 
     public int zaehleMitFilter(MedienFilter filter) {
         // TODO: mit einem MedienFilter passende Medien zaehlen
-        return 0;
     }
 
     public void readFromCsv() {
         // TODO: Medien aus INPUT_FILEPATH lesen
+        return 0;
         // Fehlerhafte Zeilen sollen abgefangen und übersprungen werden.
     }
 
