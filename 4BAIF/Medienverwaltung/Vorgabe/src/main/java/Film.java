@@ -8,28 +8,23 @@ public class Film extends Medium {
         setDauerMinuten(dauerMinuten);
     }
 
-    public int getDauerMinuten() {
-        return dauerMinuten;
-    }
+    public int getDauerMinuten() { return dauerMinuten; }
 
     public void setDauerMinuten(int dauerMinuten) throws MedienException {
-        // TODO: Dauer in Minuten muss größer als 0 sein
-        if (dauerMinuten <= 0){
-            throw new MedienException("Bro was bist du zeitreisender ?!");
-        }
+        if (dauerMinuten <= 0)
+            throw new MedienException("Dauer muss größer als 0 sein");
         this.dauerMinuten = dauerMinuten;
     }
 
     @Override
     public double berechneBeliebtheit() {
-        // TODO: bewertungen * 2.0 berechnen
         return getBewertungen() * 2.0;
     }
 
     @Override
     public String toCsvString() {
-        // TODO: Film als CSV-Zeile erzeugen
-        return String.format("Film:%s,%s,%S", this.dauerMinuten, this.getTitel(), this.getErscheinungsjahr());
+        // FIX: war "Film:%s;%s;%S" -> richtig: Film;Titel;Jahr;Bewertungen;Dauer
+        return String.format("Film;%s;%d", super.toCsvString(), dauerMinuten);
     }
 
     @Override

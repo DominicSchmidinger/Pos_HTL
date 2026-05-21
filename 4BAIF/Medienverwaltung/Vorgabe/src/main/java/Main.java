@@ -24,6 +24,7 @@ public class Main {
     }
 
     private static void testCsvImportExport() {
+        // FIX: throws IOException entfernt (writeToCsv wirft keine mehr)
         System.out.println("== CSV Import/Export ==");
         Medienverwaltung verwaltung = new Medienverwaltung();
         verwaltung.readFromCsv();
@@ -34,15 +35,24 @@ public class Main {
     }
 
     private static void testLambdaFilter() {
+        // FIX: doppelte Methode entfernt, nur eine Version
         System.out.println("== Lambda und Filter ==");
         Medienverwaltung verwaltung = new Medienverwaltung();
         verwaltung.readFromCsv();
 
-        // TODO: Lambda-Ausdruck für Medien mit Beliebtheit größer als 50.0 erstellen
-        // TODO: Lambda-Ausdruck für Medien ab dem Jahr 2025 erstellen
-        // TODO: Lambda-Ausdruck für alle Filme erstellen
-        // TODO: filtere(...) mit mindestens einem Lambda-Ausdruck testen
-        // TODO: zaehleMitFilter(...) mit mindestens einem Lambda-Ausdruck testen
-        // TODO: writePopularToCsv(...) und writeFilmeToCsv(...) testen
+        MedienFilter beliebt   = medium -> medium.berechneBeliebtheit() > 50.0;
+        MedienFilter neuMedien = medium -> medium.getErscheinungsjahr().getValue() >= 2025;
+        MedienFilter nurFilme  = medium -> medium instanceof Film;
+
+        System.out.println("Beliebte Medien: "        + verwaltung.filtere(beliebt));
+        System.out.println("Neue Medien: "            + verwaltung.filtere(neuMedien));
+        System.out.println("Nur Filme: "              + verwaltung.filtere(nurFilme));
+
+        System.out.println("Anzahl beliebte Medien: " + verwaltung.zaehleMitFilter(beliebt));
+        System.out.println("Anzahl neue Medien: "     + verwaltung.zaehleMitFilter(neuMedien));
+        System.out.println("Anzahl Filme: "           + verwaltung.zaehleMitFilter(nurFilme));
+
+        verwaltung.writePopularToCsv(beliebt);
+        verwaltung.writeFilmeToCsv(nurFilme);
     }
 }

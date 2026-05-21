@@ -1,4 +1,4 @@
 @FunctionalInterface
-public interface Medienfilter {
+public interface MedienFilter {
     boolean akzeptiert(Medium medium);
 }

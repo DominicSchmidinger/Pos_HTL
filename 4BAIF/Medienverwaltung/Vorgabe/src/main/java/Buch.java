@@ -8,29 +8,23 @@ public class Buch extends Medium {
         setSeiten(seiten);
     }
 
-    public int getSeiten() {
-        return seiten;
-    }
+    public int getSeiten() { return seiten; }
 
     public void setSeiten(int seiten) throws MedienException {
-        // TODO: Seiten müssen größer als 0 sein
         if (seiten <= 0)
-            throw new MedienException("Bro Seite darf nicht null sein");
+            throw new MedienException("Seiten müssen größer als 0 sein");
         this.seiten = seiten;
     }
 
     @Override
     public double berechneBeliebtheit() {
-        // TODO: bewertungen * 1.5 berechnen
-
-
         return getBewertungen() * 1.5;
     }
 
     @Override
     public String toCsvString() {
-        // TODO: Buch als CSV-Zeile erzeugen
-        return String.format("Buch;%s;%s,%s", this.getTitel(), this.getErscheinungsjahr(), this.getBewertungen());
+        // FIX: Seiten hinzugefügt, Format: Buch;Titel;Jahr;Bewertungen;Seiten
+        return String.format("Buch;%s;%d", super.toCsvString(), seiten);
     }
 
     @Override
