@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7cc7fb6-6674-4e54-89e9-bcde85cfb823" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Shellter/src/main/java/spengergasse/at/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Shellter/src/main/java/spengergasse/at/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DominicSchmidinger&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DominicSchmidinger/Pos_HTL.git&quot;,
+    &quot;accountId&quot;: &quot;9e2b9db0-5301-4918-acd7-25a0ea1c2b8c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="38FabKyhW8FFQfQhTvTm8vf0uVU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testBerechneGehalt_sollFunktionieren_mitarbeiterIn1JahrDabei_return1550Komma.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testBerechneGehalt_sollFunktionieren_mitarbeiterIn1JahrDabei_return1550Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testBerechnePraemie_eineMitarbeiterIn_20Dienstjahre_return2250Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testBerechnePraemie_eineMitarbeiterIn_25Dienstjahre_return5000Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testBerechnePraemie_eineMitarbeiterIn_49Dienstjahre_return0Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testBerechnePraemie_eineMitarbeiterIn_50Dienstjahre_return8250Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testBerechnePraemie_eineMitarbeiterIn_51Dienstjahre_return0Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testBerechnePraemie_eineMitarbeiterIn_zehnDienstjahr_return2250Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testBerechnePraemie_eineMitarbeiterInnen_einDienstjahr_return0Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testKeineAhnung_humptiPumpti.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MitarbeiterTest.testToString_printAufKonsole.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testAufnehmen_eineMitarbeiterIn_doppeltesAufnehmen_returnFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testAufnehmen_eineMitarbeiterInnen_dopeltesAufnehmen_returnFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testAufnehmen_sollFunktionieren_einAngestellter_zweiFreelancer_nichtInhaltsgleichBeiFreelancerAttributen_returnsTrue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testAufnehmen_sollNichtFunktionieren_einAngestellter_einFreelancer_doppelt_returnsFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testAufnehmen_sollNichtFunktionieren_einAngestellter_zweiFreelancer_inhaltsgleich_returnsFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testAufnehmen_zweiMitarbeiterInnenAnna_doppeltesAufnehmen_returnFalse.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testBerechneDurchschnittsalter_shouldNotWork_leeresPersonalbuero_returnsMinus99Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testBerechneGehaltFreelancer_defaultFreelancer_returns1000Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testBerechneGehaltsumme_shouldWork_eineMitarbeiterIn_returnGehaltMitarbeiterIn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testFreenlacerAufnehmen_defaultFreelancer_returnsTrue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testGehaltsListe_dreiMitarbeiterInnen.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testGehaltsListe_eineMitarbeiterIn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testGehaltsListe_keineMitarbeiterInnen.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testKuendigenAlle_sollFunktionieren_dreiAngestellte2MalAlbert_kuendigenAlbert_returns2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testKuendigenAlle_sollFunktionieren_dreiMitarbeiterInnen2MalAlbert_kuendigenAnna_returns2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testKuendigenGehalt_sollFunktionieren_dreiAngestellte_kuendigen0Komm0_returns4500Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testKuendigenPos_sollFunktionieren_dreiMitarbeiterInnen_kuendigen0_returnsTrue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testKuendigenYear_sollNichtFunktionieren_ein_Angestelter_eintrJahr_null_returns_minus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testPersonalbuero_sollFunktionieren_dreiAngestellte_eineAertztin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testSortierenNachName_einAngestellterHubert_einFreelancerAnna_sollFunktionieren_returnTrue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testToString_dreiAngestellte_toStringInformationenMitarbeiterInListe.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testToString_dreiMitarbeiterInnen_toStringInformationenMitarbeiterInListe.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testToString_leeresPersolabuero_keineMitarbeiterVorhanden.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testZaehleAlter_shouldNotWork_keineMitarbeiterInnen_returnMinus99Komma0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testZaehleAlter_sollFunktionieren_dreiMitarbeiterInnen_alle25_return3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testZaehleAlter_sollFunktionieren_dreiMitarbeiterInnen_return0.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.testZaehleAlter_sollFunktionieren_dreiMitarbeiterInnen_return2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonalbueroTest.test_Freelancer_stunden.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Personalbuero [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Dominic/Spengergasse/Gits Repos/Pos_HTL/4BAIF/Personalbuero_IntelliJ_Projekt_20260225/Personalbuero&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/W25/Unterricht/3BAIF/20260114/Personalbuero/src/main/java/at/spengergasse/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="at.spengergasse" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonalbueroTest.test_Freelancer_stunden">
+    <configuration name="PersonalbueroTest.testAufnehmen_sollFunktionieren_einAngestellter_zweiFreelancer_nichtInhaltsgleichBeiFreelancerAttributen_returnsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Personalbuero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.spengergasse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.spengergasse" />
+      <option name="MAIN_CLASS_NAME" value="at.spengergasse.PersonalbueroTest" />
+      <option name="METHOD_NAME" value="testAufnehmen_sollFunktionieren_einAngestellter_zweiFreelancer_nichtInhaltsgleichBeiFreelancerAttributen_returnsTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonalbueroTest.testAufnehmen_sollNichtFunktionieren_einAngestellter_einFreelancer_doppelt_returnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Personalbuero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.spengergasse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.spengergasse" />
+      <option name="MAIN_CLASS_NAME" value="at.spengergasse.PersonalbueroTest" />
+      <option name="METHOD_NAME" value="testAufnehmen_sollNichtFunktionieren_einAngestellter_einFreelancer_doppelt_returnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonalbueroTest.testAufnehmen_sollNichtFunktionieren_einAngestellter_zweiFreelancer_inhaltsgleich_returnsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Personalbuero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.spengergasse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.spengergasse" />
+      <option name="MAIN_CLASS_NAME" value="at.spengergasse.PersonalbueroTest" />
+      <option name="METHOD_NAME" value="testAufnehmen_sollNichtFunktionieren_einAngestellter_zweiFreelancer_inhaltsgleich_returnsFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonalbueroTest.testKuendigenYear_sollNichtFunktionieren_ein_Angestelter_eintrJahr_null_returns_minus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Personalbuero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.spengergasse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.spengergasse" />
+      <option name="MAIN_CLASS_NAME" value="at.spengergasse.PersonalbueroTest" />
+      <option name="METHOD_NAME" value="testKuendigenYear_sollNichtFunktionieren_ein_Angestelter_eintrJahr_null_returns_minus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonalbueroTest.test_Freelancer_stunden" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Personalbuero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.spengergasse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.spengergasse" />
+      <option name="MAIN_CLASS_NAME" value="at.spengergasse.PersonalbueroTest" />
+      <option name="METHOD_NAME" value="test_Freelancer_stunden" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonalbueroTest.test_Freelancer_stunden" />
+        <item itemvalue="JUnit.PersonalbueroTest.testKuendigenYear_sollNichtFunktionieren_ein_Angestelter_eintrJahr_null_returns_minus" />
+        <item itemvalue="JUnit.PersonalbueroTest.testAufnehmen_sollFunktionieren_einAngestellter_zweiFreelancer_nichtInhaltsgleichBeiFreelancerAttributen_returnsTrue" />
+        <item itemvalue="JUnit.PersonalbueroTest.testAufnehmen_sollNichtFunktionieren_einAngestellter_zweiFreelancer_inhaltsgleich_returnsFalse" />
+        <item itemvalue="JUnit.PersonalbueroTest.testAufnehmen_sollNichtFunktionieren_einAngestellter_einFreelancer_doppelt_returnsFalse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7cc7fb6-6674-4e54-89e9-bcde85cfb823" name="Changes" comment="" />
+      <created>1768397844949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768397844949</updated>
+    </task>
+    <servers />
+  </component>
+</project>
