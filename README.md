@@ -3,19 +3,23 @@
 Hey! Schön, dass du hier gelandet bist. 👋
 
 ### ✨ Über dieses Projekt
-Ich bin noch **relativ neu** in der Welt des Codings und lerne gerade, wie man Java-Projekte richtig strukturiert und mit Git verwaltet. In diesem Repository (meinem "Coding"-Ordner) sammle ich meine Fortschritte, Tutorials und verschiedene kleine Projekte.
+Ich bin noch **relativ neu** in der Welt des Codings und lerne gerade, wie man Projekte richtig strukturiert und mit Git verwaltet. In diesem Repository sammle ich meine Fortschritte, Übungen und verschiedene kleine Projekte aus dem Unterricht (POS an der HTL).
 
 ### 🛠 Was ich hier lerne:
-* **Java Basics:** Vom ersten "Hello World" bis hin zu komplexeren Logiken.
-* **Projektstruktur:** Wie man Ordnung mit `src`-Ordnern hält und verhindert, dass sich Projekte gegenseitig stören.
-* **Git-Flow:** Klonen, Committen und das Verwalten von Repositories über das Terminal.
+* **Java:** Vom ersten "Hello World" bis hin zu komplexeren Logiken (4. Klasse).
+* **C# und .NET:** Klassen, Properties und Tests, seit der 5. Klasse.
+* **Projektstruktur:** Wie man Ordnung mit Solutions und `src`-Ordnern hält und verhindert, dass sich Projekte gegenseitig stören.
+* **Git-Flow:** Klonen, Committen, Branches, Mergen und das Verwalten von Repositories über das Terminal.
 
 ---
 
 ### 📂 Struktur
-In diesem Projekt findest du verschiedene Unterordner. Jedes Verzeichnis ist ein eigenständiges Experiment oder Tutorial:
-* `Projekt_Rechner/` – Mein Weg zum ersten Kalkulator.
-* `Tutorial_Git/` – Notizen und Übungen zu Git-Befehlen.
+In diesem Projekt findest du verschiedene Unterordner. Jedes Verzeichnis ist ein eigenständiges Experiment oder eine Übung:
+* `4BAIF/` – Java-Projekte aus der 4. Klasse (z. B. Personalverwaltung, Galerie, Medienverwaltung).
+* `5AAIF/` – Übungen aus der 5. Klasse in C#.
+  * `RpgDemo_Uebung/` – Properties-Übung mit `Weapon` und `Character` (Ausgangsstand zum Weiterüben).
+* `Coding/` – Kleinere Java-Projekte (z. B. Kino, Matrix, Songmanager, Warenkorb).
+* `Notizen/` – Meine Notizen.
 
 ---
 
@@ -28,9 +32,10 @@ Ich nutze dieses Repository als mein digitales Notizbuch. Wenn du Tipps für mic
 
 ### 🚀 So startest du
 Wenn du mein Projekt lokal testen willst:
-1. Klone das Repo: `git clone https://github.com/DominicSchmidinger/pos_3AAIF.git`
-2. Öffne es in deiner Lieblings-IDE (ich nutze **IntelliJ IDEA**).
-3. Viel Spaß beim Stöbern!
+1. Klone das Repo: `git clone https://github.com/DominicSchmidinger/Pos_HTL.git`
+2. Öffne den Java-Ordner in deiner Lieblings-IDE (ich nutze **IntelliJ IDEA**).
+3. Für die C#-Übungen in `5AAIF/` brauchst du das **.NET SDK 10** und **VS Code** mit der Erweiterung `ms-dotnettools.csharp`. Öffne den Ordner mit der `.sln`-Datei und baue mit `dotnet build`.
+4. Viel Spaß beim Stöbern!
 
 ---
 
